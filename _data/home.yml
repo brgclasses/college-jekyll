@@ -265,3 +265,18 @@ gallery:
       path: online.jpg
     - title: Work together
       path: work-together.jpg
+
+# partners
+partners:
+  header-text: Our Industry Partners
+  list:
+    - title: Partner 1
+      profile: partner1.png
+    - title: Partner 2
+      profile: partner2.png
+    - title: Partner 3
+      profile: partner3.png
+    - title: Partner 4
+      profile: partner4.png
+    - title: Partner 5
+      profile: partner5.png
