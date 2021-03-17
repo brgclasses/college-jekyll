@@ -104,4 +104,20 @@ about:
       - StartUp & Innovation
       - Placement Assistance
 
-#
+# principal or director message
+message:
+  header-text: Principal's Message
+  profile: principal.jpg
+  msg: |-
+    This section will contain the principal’s or director’s message
+    about the college. And, this paragraph should contain main highlights
+    for the message and enforce to read the below paragraph.
+
+    This can be the second para and other details. Lorem, ipsum dolor
+    sit amet consectetur adipisicing elit.  Deleniti odio, assumenda
+    molestiae hic veniam exercitationem  optio corporis error vero aspernatur.
+    <br>
+    <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Voluptate optio nihil, sunt quia at sint quaerat
+    perferendis tenetur maiores ducimus?
