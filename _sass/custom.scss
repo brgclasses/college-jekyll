@@ -60,6 +60,10 @@ section:nth-child(odd), .bg-gray {
   flex-shrink: none;
 }
 
+div p:last-child {
+  margin-bottom: 0 !important;
+}
+
 // simplebox
 .sl-wrapper {
   .sl-close {

@@ -280,3 +280,39 @@ partners:
       profile: partner4.png
     - title: Partner 5
       profile: partner5.png
+
+# contact
+contact:
+  map-src: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.296795151912!2d73.92823745002752!3d18.515485387350154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c18b7d0e7f79%3A0xa70efdeaaf2a46d1!2sMagarpatta%2C%20Hadapsar%2C%20Pune%2C%20Maharashtra%20411028!5e0!3m2!1sen!2sin!4v1615986115600!5m2!1sen!2sin
+  caption: Get In Touch
+  items:
+    - title: Location
+      icon: map.png
+      content: |-
+        College of Engineering,<br>
+        Magarpatta Road, Hadapsar,<br>
+        Pune - 423401<br>
+        Maharashtra, India
+    - title: Call
+      icon: call.png
+      content: |-
+        020 123456 <br>
+        020 987654
+    - title: Mail
+      icon: mail.png
+      content: |-
+        enquiry@punecollege.edu.in
+  quick-link-caption: Quick Links
+  quick-links:
+    - title: Facilities
+      url: /#
+    - title: Scholarship
+      url: /#
+    - title: Virtual Classroom
+      url: /#
+    - title: College Life
+      url: /#
+    - title: Entrepreneurship Cell
+      url: /#
+    - title: Anti Ragging
+      url: /#

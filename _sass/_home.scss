@@ -365,10 +365,16 @@ header {
 .contact-section {
   background-color: #003062;
 
-  .contact-info img, .quick-links img {
+  iframe {
+    width: 100%;
+    height: 250px;
+    border: 0;
+  }
+
+  .contact-info img, .links img {
     height: 25px;
   }
-  .quick-links li {
+  .links li {
     margin-bottom: 0.5rem;
   }
 }
