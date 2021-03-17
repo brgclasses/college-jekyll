@@ -224,8 +224,8 @@ header {
   }
 }
 
-// stats
-.stats-section {
+// highlights
+.highlights-section {
   background-color: #333;
   color: #fff;
   position: relative;
@@ -237,7 +237,7 @@ header {
 
   .bg-cover::before {
     content: '';
-    background: url($image_base_url + "/stats.jpg") no-repeat center center/cover;
+    background: url($highlights-bg-img) no-repeat center center/cover;
     position: absolute;
     opacity: 0.5;
     top: 0;
