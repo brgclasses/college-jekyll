@@ -241,3 +241,27 @@ news-events:
     btn:
       caption: View Celebration Moments
       url: /#
+
+# gallery
+gallery:
+  header-text: Gallery
+  view-more:
+    caption: VIEW MORE
+    url: /#
+  images:
+    - title: Covid
+      path: covid.jpg
+    - title: Cycling
+      path: cycling.jpg
+    - title: Entrepreneurship
+      path: entrepreneurship.jpg
+    - title: Event
+      path: event.jpg
+    - title: Getogether
+      path: getogether.jpg
+    - title: Meeting
+      path: meeting.jpg
+    - title: Online
+      path: online.jpg
+    - title: Work together
+      path: work-together.jpg
