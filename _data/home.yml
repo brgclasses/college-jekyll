@@ -71,6 +71,18 @@ banner:
       - title: Results of MCA 1st Year
         url: some-url-4
 
+# highlights
+highlights:
+  - title: Programs Offered
+    img: programs.jpg
+    url: /#
+  - title: Research & Innovation
+    img: research.jpg
+    url: /#
+  - title: Entrepreneurship
+    img: entrepreneurship.jpg
+    url: /#
+
 # about
 about:
   bg-img: https://brgclasses.sirv.com/vidyalaya/img/college.jpg
@@ -91,3 +103,5 @@ about:
       - Ragging free campus
       - StartUp & Innovation
       - Placement Assistance
+
+#
