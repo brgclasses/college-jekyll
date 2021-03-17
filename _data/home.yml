@@ -71,8 +71,8 @@ banner:
       - title: Results of MCA 1st Year
         url: some-url-4
 
-# highlights
-highlights:
+# quick-links
+quick-links:
   - title: Programs Offered
     img: programs.jpg
     url: /#

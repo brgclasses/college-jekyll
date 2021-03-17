@@ -119,19 +119,19 @@ header {
   }
 }
 
-// highlights
-.highlights {
+// quick-links
+.quick-links {
   margin-top: -50px;
 
   .row {
     gap: 2.5rem;
   }
 
-  .highlight-item {
+  .quick-links-item {
       img {
       object-fit: cover;
     }
-    .highlight-title {
+    .quick-links-title {
       background-color: #20305F;
       color: #fff;
       text-align: center;
