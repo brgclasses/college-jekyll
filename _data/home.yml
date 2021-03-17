@@ -177,3 +177,15 @@ admissions:
             - title: Programs
               url: /#
 
+# covid
+covid:
+  wrapper-img: covid.jpg
+  title: College of Engineering responds to COVID 19
+  para: |-
+    Following College true mission to serve the community, the nation and the world,
+    students, faculty, staff and management are addressing the COVID-19 pandemic on
+    multiple fronts. Explore new research, community impact initiatives, expert
+    perspectives and more.
+  more:
+    url: /#
+    caption: READ MORE NEWS
