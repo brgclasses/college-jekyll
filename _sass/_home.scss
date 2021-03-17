@@ -335,7 +335,7 @@ header {
   }
   .anniversary-news::before {
     content: '';
-    background: url($image_base_url + "/celebration.jpg") no-repeat center center/cover;
+    background: url($news-highlight-bg-img) no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;

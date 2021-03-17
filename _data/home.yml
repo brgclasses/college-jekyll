@@ -203,3 +203,41 @@ highlights:
       info: Faculties
     - stats: 5000+
       info: Alumni
+
+# news and events
+news-events:
+  news:
+    header-text: NEWS
+    view-more:
+      caption: VIEW MORE
+      url: /#
+    items:
+      - title: Staff meeting hold successfully to tackle new challenges for next semester.
+        img: staff-meeting.jpg
+        date: 22<sup>st</sup> Feb, 2021
+      - title: Intercollege Hackthon successfully hosted in Pune College of Engineering.
+        img: hackathon.jpg
+        date: 1<sup>st</sup> Feb, 2021
+      - title: 100% results to all the MCA students in the second semester.
+        img: alumni-meet.jpg
+        date: 15<sup>th</sup> Jan, 2021
+  events:
+    header-text: EVENTS
+    view-more:
+      caption: VIEW MORE
+      url: /#
+    items:
+      - title: Online Alumni-Interaction Session with faculty and student
+        # keep the date format as it is. avoid removing span
+        date: <span>3<sup>rd</sup></span> Jan, 2021
+      - title: Career Guidance by FOO to Masters Students
+        date: <span>5<sup>th</sup></span> Mar, 2021
+      - title: Fresher’s party by 2nd year BSc(comp sci) to 3rd year
+        date: <span>10<sup>th</sup></span> Mar, 2021
+  highlight:
+    bg-img: https://brgclasses.sirv.com/vidyalaya/img/celebration.jpg
+    header-text: 50<sup>th</sup> ANNIVERSARY [1970 - 2021]
+    title: College of Engineering
+    btn:
+      caption: View Celebration Moments
+      url: /#
