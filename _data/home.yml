@@ -1,23 +1,93 @@
+# navbar
 navbar:
-  mail: info@college.edu.in
-  phone: 007 - 12345678
-  trustee: SOCIAL WELFARE SOCIETY'S
-  college-name: COLLEGE OF ENGINEERING
-  affiliation: Affiliated to FOO University
-  accreditation: ABC Accredited "A"
-  action-btn:
-    title: ADMISSIONS 2020-2021
-    url: action-url
+  upper:
+    left:
+      mail: info@foocollege.edu.in
+      phone: 007 - 1234567890
+      social:
+        - title: Facebook
+          url: /#
+          icon-img: facebook.png
+        - title: YouTube
+          url: /#
+          icon-img: youtube.png
+        - title: LinkedIn
+          url: /#
+          icon-img: youtube.png
+        - title: Twitter
+          url: /#
+          icon-img: twitter.png
+        - title: Instagram
+          url: /#
+          icon-img: insta.png
+    right:
+      links:
+        - title: Staff
+          url: /#
+        - title: Alumni
+          url: /#
+        - title: News & Events
+          url: /#
+      btns:
+        - title: APPLY NOW
+          url: /#
+          class: btn btn-apply ml-4
+
+  middle:
+    trustee: ABS TRUSTEE'S
+    college-name: FOO COLLEGE OF ENGINEERING
+    affiliation: Affiliated to XYZ University
+    accreditation: PQR Accredited "A"
+    action-btn:
+      title: ADMISSION LIST 2020-2021
+      url: http://example.com/admission/
+
+  lower:
+    - title: Home
+      url: /
+    - title: About
+      url: /about
+    - title: Courses
+      url: /courses
+    - title: Admissions
+      url: /admissions
+    - title: Campus Life
+      url: /campus-life
+
+# banner
 banner:
   bg-img: https://brgclasses.sirv.com/vidyalaya/img/banner.jpg
-  news:
+  news-and-updates:
     new:
+      - title: Admission Notice for CSIT
+        url: /admission-csit
+      - title: Upcoming Event on Entrepreneurship
+        url: some-url-6
       - title: Eligibility List 2020-2021
         url: some-url-1
       - title: BSC (Comp Sci.) Admission 2020-2021 extended to 30th Feb, 2021
         url: some-url-2
-      - title: Merit List for 2nd Year BSC(comp. sci.) published
-        url: some-url-3
     old:
-      - title: Results of MCA 1st Year Announced
+      - title: Results of MCA 1st Year
         url: some-url-4
+
+# about
+about:
+  bg-img: https://brgclasses.sirv.com/vidyalaya/img/college.jpg
+  info: |-
+    Pune College of Engineering is one of the top college for pursuing engeering degrees in Pune.
+    <br><br>
+    Below text is a dummy text which will be replaced with actual text in website development. Lorem,
+    ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio, assumenda molestiae hic veniam
+    exercitationem optio corporis e rror vero aspernatur.
+  features:
+    left:
+      - Quality Education
+      - Excellent Infrastructure
+      - Practical Based Education
+      - Experienced Faculty
+    right:
+      - Inter collegiate events
+      - Ragging free campus
+      - StartUp & Innovation
+      - Placement Assistance

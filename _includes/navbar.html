@@ -3,47 +3,54 @@
 <nav class="navbar upper justify-content-between align-items-center">
   <div class="left-actions d-flex">
     <div class="mail">
-      <img src="{{ site.image_base_url }}/mail.png" alt=""> <span>{{ navbar.mail }}</span>
+      <img src="{{ site.image_base_url }}/mail.png" alt=""> <span>{{ navbar.upper.left.mail }}</span>
     </div>
     <div class="call ml-3">
-      <img src="{{ site.image_base_url }}/call.png" alt=""> <span>{{ navbar.phone }}</span>
+      <img src="{{ site.image_base_url }}/call.png" alt=""> <span>{{ navbar.upper.left.phone }}</span>
     </div>
     <div class="social ml-3">
-      <a href="#"><img src="{{ site.image_base_url }}/facebook.png" alt="Facebook"></a>
-      <a href="#"><img src="{{ site.image_base_url }}/youtube.png" alt="YouTube"></a>
-      <a href="#"><img src="{{ site.image_base_url }}/linkedin.png" alt="LinkedIn"></a>
-      <a href="#"><img src="{{ site.image_base_url }}/twitter.png" alt="Twitter"></a>
-      <a href="#"><img src="{{ site.image_base_url }}/insta.png" alt="Instagram"></a>
+      {% for social-item in navbar.upper.left.social %}
+        <a href="{{ social-item.url }}">
+          <img src="{{ site.image_base_url }}/{{ social-item.icon-img }}" alt="{{ social-item.title }}">
+        </a>
+      {% endfor %}
     </div>
   </div>
   <div class="right-actions d-flex align-items-center">
     <div class="links">
-      <a href="#"><span>Staff</span></a>
-      <a href="#" class="ml-3"><span>Alumni</span></a>
-      <a href="#" class="ml-3"><span>News & Events</span></a>
+      {% for link in navbar.upper.right.links %}
+        <a href="{{ link.url }}" class="ml-3"><span>{{ link.title }}</span></a>
+      {% endfor %}
     </div>
-    <a href="#" class="btn btn-apply"><span>APPLY NOW</span></a>
+    <div class="btns">
+      {% for btn in navbar.upper.right.btns %}
+        <a href="{{ btn.url }}" class="{{ btn.class }}"><span>{{ btn.title }}</span></a>
+      {% endfor %}
+    </div>
   </div>
 </nav>
 <nav class="middle d-flex justify-content-between align-items-center flex-wrap">
   <div class="left-items d-flex">
-    <img src="{{ site.image_base_url }}/book-reader.png" class="profile" alt="Pune College of Engineering">
+    <img src="{{ site.image_base_url }}/book-reader.png" class="profile" alt="{{ site.title }}">
     <div class="info ml-4">
-      {% if navbar.trustee %}
-        <p>{{ navbar.trustee }}</p>
+      {% if navbar.middle.trustee %}
+        <p>{{ navbar.middle.trustee }}</p>
       {% endif %}
 
-      <p class="college">{{ navbar.college-name }}</p>
-      <p>{{ navbar.affiliation }}</p>
+      <p class="college">{{ navbar.middle.college-name }}</p>
+      <p>{{ navbar.middle.affiliation }}</p>
 
-      {% if navbar.accreditation %}
-        <p class="text-danger">{{ navbar.accreditation }}</p>
+      {% if navbar.middle.accreditation %}
+        <p class="text-danger">{{ navbar.middle.accreditation }}</p>
       {% endif %}
     </div>
   </div>
-  <div class="right-items">
-    <a href="{{ navbar.action-btn.url }}" class="btn btn-admission">{{ navbar.action-btn.title }}</a>
-  </div>
+
+  {% if navbar.middle.action-btn %}
+    <div class="right-items">
+      <a href="{{ navbar.action-btn.url }}" class="btn btn-admission">{{ navbar.middle.action-btn.title }}</a>
+    </div>
+  {% endif %}
 </nav>
 <nav class="navbar lower navbar-expand-lg">
   <div class="container">
@@ -53,27 +60,12 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Courses</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Admissions</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">People</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Campus Life</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Others</a>
-        </li>
+        {% for nav-item in navbar.lower %}
+          {% assign title = nav-item.title %}
+          <li class="nav-item {% if page.title == title %}active{% endif %}">
+            <a class="nav-link" href="{{ site.baseurl }}{{ nav-item.url }}">{{ nav-item.title }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
   </div>

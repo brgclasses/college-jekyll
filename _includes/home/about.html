@@ -1,3 +1,4 @@
+{% assign about = site.data.home.about %}
 <!-- about -->
 <section class="about-section py-7">
   <div class="container relative">
@@ -8,46 +9,26 @@
     <div class="clearfix"></div>
     <div class="row">
       <div class="col-md-4">
-        <img src="{{ site.image_base_url }}/college.jpg" class="img-fluid mt-2" alt="Profile">
+        <img src="{{ about.bg-img }}" class="img-fluid mt-2" alt="Profile">
       </div>
       <div class="col-md-6 offset-md-1">
         <p class="about-info">
-          Pune College of Engineering is one of the top college for
-          pursuing engeering degrees in Pune.
-          <br>
-          Below text is a dummy text which will be replaced with actual text in
-          website development. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Deleniti odio, assumenda molestiae hic veniam exercitationem  optio corporis e
-          rror vero aspernatur.
+          {{ about.info }}
         </p>
         <div class="features d-flex gap-2">
           <ul>
-            <li>
-              <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>Quality Education</span>
-            </li>
-            <li>
-              <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>Excellent Infrastructure</span>
-            </li>
-            <li>
-              <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>Value based Education</span>
-            </li>
-            <li>
-              <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>Experienced Faculty</span>
-            </li>
+            {% for feature in about.features.left %}
+              <li>
+                <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>{{ feature }}</span>
+              </li>
+            {% endfor %}
           </ul>
           <ul>
-            <li>
-              <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>Inter collegiate events</span>
-            </li>
-            <li>
-              <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>Ragging free campus</span>
-            </li>
-            <li>
-              <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>StartUp & Innovation</span>
-            </li>
-            <li>
-              <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>Placement Assistance</span>
-            </li>
+            {% for feature in about.features.right %}
+              <li>
+                <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>{{ feature }}</span>
+              </li>
+            {% endfor %}
           </ul>
         </div>
       </div>
