@@ -121,3 +121,59 @@ message:
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Voluptate optio nihil, sunt quia at sint quaerat
     perferendis tenetur maiores ducimus?
+
+# admissions
+admissions:
+  header-text: Admissions
+  body:
+    img-left: admissions.jpg
+    tabs:
+      - title: Bachelor
+        content:
+          para: |-
+            If you're interested in pursuing a Bachelor course at Pune college of Engineering.
+            Follow the links below:
+          actions:
+            - title: Requirements
+              url: /#
+            - title: Apply Now
+              url: /#
+            - title: Programs
+              url: /#
+      - title: Masters
+        content:
+          para: |-
+            If you're interested in pursuing a Masters course at Pune college of Engineering.
+            Follow the links below:
+          actions:
+            - title: Requirements
+              url: /#
+            - title: Apply Now
+              url: /#
+            - title: Programs
+              url: /#
+      - title: Doctorate
+        content:
+          para: |-
+            If you're interested in pursuing a Doctorate course at Pune college of Engineering.
+            Follow the links below:
+          actions:
+            - title: Requirements
+              url: /#
+            - title: Apply Now
+              url: /#
+            - title: Programs
+              url: /#
+      - title: International Students
+        content:
+          para: |-
+            To maintain the relationship with outside world, we have given a path to
+            build a relationship by giving international students a special features:
+          actions:
+            - title: Requirements
+              url: /#
+            - title: Apply Now
+              url: /#
+            - title: Programs
+              url: /#
+
