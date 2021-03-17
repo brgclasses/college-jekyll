@@ -3,7 +3,7 @@ email: brgclasses@gmail.com
 year: 2021
 description: >-
   A jekyll based college website template
-baseurl: "/college" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # image_base_url: /college/assets/img
 image_base_url: https://brgclasses.sirv.com/vidyalaya/img
