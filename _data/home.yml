@@ -56,7 +56,16 @@ navbar:
 
 # banner
 banner:
-  bg-img: https://brgclasses.sirv.com/vidyalaya/img/banner.jpg
+  slider:
+    - title: Workshop on Entrepreneurship & Innovation
+      img: https://brgclasses.sirv.com/vidyalaya/img/banner1.jpg
+      url: /#
+    - title: Participation in the Science Hub IT Expo
+      img: https://brgclasses.sirv.com/vidyalaya/img/banner2.jpg
+      url: /#
+    - title: Annual celebration of Students
+      img: https://brgclasses.sirv.com/vidyalaya/img/banner3.jpg
+      url: /#
   news-and-updates:
     new:
       - title: Admission Notice for CSIT
@@ -189,7 +198,7 @@ covid:
     perspectives and more.
   more:
     url: /#
-    caption: READ MORE NEWS
+    caption: READ MORE
 
 # highlights
 highlights:
