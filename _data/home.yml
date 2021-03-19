@@ -87,7 +87,7 @@ quick-links:
 about:
   bg-img: https://brgclasses.sirv.com/vidyalaya/img/college.jpg
   info: |-
-    Pune College of Engineering is one of the top college for pursuing engeering degrees in Pune.
+    Foo College of Engineering is one of the top college for pursuing engineering degrees in Foo city.
     <br><br>
     Below text is a dummy text which will be replaced with actual text in website development. Lorem,
     ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio, assumenda molestiae hic veniam
@@ -131,7 +131,7 @@ admissions:
       - title: Bachelor
         content:
           para: |-
-            If you're interested in pursuing a Bachelor course at Pune college of Engineering.
+            If you're interested in pursuing a Bachelor course at Foo college of Engineering.
             Follow the links below:
           actions:
             - title: Requirements
@@ -143,7 +143,7 @@ admissions:
       - title: Masters
         content:
           para: |-
-            If you're interested in pursuing a Masters course at Pune college of Engineering.
+            If you're interested in pursuing a Masters course at Foo college of Engineering.
             Follow the links below:
           actions:
             - title: Requirements
@@ -155,7 +155,7 @@ admissions:
       - title: Doctorate
         content:
           para: |-
-            If you're interested in pursuing a Doctorate course at Pune college of Engineering.
+            If you're interested in pursuing a Doctorate course at Foo college of Engineering.
             Follow the links below:
           actions:
             - title: Requirements
@@ -215,7 +215,7 @@ news-events:
       - title: Staff meeting hold successfully to tackle new challenges for next semester.
         img: staff-meeting.jpg
         date: 22<sup>st</sup> Feb, 2021
-      - title: Intercollege Hackthon successfully hosted in Pune College of Engineering.
+      - title: Intercollege Hackthon successfully hosted in Foo College of Engineering.
         img: hackathon.jpg
         date: 1<sup>st</sup> Feb, 2021
       - title: 100% results to all the MCA students in the second semester.
@@ -289,9 +289,9 @@ contact:
     - title: Location
       icon: map.png
       content: |-
-        College of Engineering,<br>
-        Magarpatta Road, Hadapsar,<br>
-        Pune - 423401<br>
+        Foo College of Engineering,<br>
+        ABC Road, Bar,<br>
+        Foo - 423401<br>
         Maharashtra, India
     - title: Call
       icon: call.png
@@ -301,7 +301,7 @@ contact:
     - title: Mail
       icon: mail.png
       content: |-
-        enquiry@punecollege.edu.in
+        enquiry@foocollege.edu.in
   quick-link-caption: Quick Links
   quick-links:
     - title: Facilities
