@@ -4,16 +4,17 @@ header {
     padding: 0 0 0 3rem;
     background-color: #20305F;
     position: relative;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
     color: #fff;
 
     img {
       height: 17px;
+      margin-left: 0.25rem;
     }
 
     .right-actions .btn-apply {
-      padding: 0.6rem 1rem;
+      padding: 0.8rem 1rem;
       display: inline-block;
       background-color: #BB0707;
       color: #fff;
@@ -64,9 +65,9 @@ header {
   }
   .navbar {
     .navbar-nav .nav-item .nav-link {
-      padding: 0.8rem 1.5rem;
-      font-size: 13px;
-      font-weight: 400;
+      padding: 1rem 1.5rem;
+      font-size: 15px;
+      font-weight: 300;
     }
     .navbar-nav .nav-item.active .nav-link,
       .navbar-nav .nav-item:hover .nav-link {
@@ -176,7 +177,7 @@ header {
       color: #fff;
       text-align: center;
       font-size: 14px;
-      padding: 0.5rem 0.25rem;
+      padding: 1rem;
     }
   }
 }

@@ -13,7 +13,7 @@ navbar:
           icon-img: youtube.png
         - title: LinkedIn
           url: /#
-          icon-img: youtube.png
+          icon-img: linkedin.png
         - title: Twitter
           url: /#
           icon-img: twitter.png

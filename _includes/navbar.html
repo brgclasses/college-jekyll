@@ -62,7 +62,7 @@
       <ul class="navbar-nav ml-auto">
         {% for nav-item in navbar.lower %}
           {% assign title = nav-item.title %}
-          <li class="nav-item {% if page.title == title %}active{% endif %}">
+          <li class="nav-item {% if forloop.index == 1 %}active{% endif %}">
             <a class="nav-link" href="{{ site.baseurl }}{{ nav-item.url }}">{{ nav-item.title }}</a>
           </li>
         {% endfor %}
