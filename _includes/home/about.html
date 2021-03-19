@@ -15,21 +15,27 @@
         <p class="about-info">
           {{ about.info }}
         </p>
-        <div class="features d-flex gap-2">
-          <ul>
-            {% for feature in about.features.left %}
-              <li>
-                <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>{{ feature }}</span>
-              </li>
-            {% endfor %}
-          </ul>
-          <ul>
-            {% for feature in about.features.right %}
-              <li>
-                <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>{{ feature }}</span>
-              </li>
-            {% endfor %}
-          </ul>
+        <div class="features">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="mb-0">
+                {% for feature in about.features.left %}
+                  <li>
+                    <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>{{ feature }}</span>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                {% for feature in about.features.right %}
+                  <li>
+                    <img src="{{ site.image_base_url }}/checkbox.png" alt="Checkbox"> <span>{{ feature }}</span>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

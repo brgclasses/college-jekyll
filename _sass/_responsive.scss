@@ -43,9 +43,11 @@
   }
   .admissions-section .tab-content .tab-pane {
     padding-bottom: 0;
+    padding: 1rem;
   }
   .covid-section .covid-text-wrapper .inner-content {
     left: 0;
+    padding: 2rem;
   }
   .news-events-section {
     padding-left: 1rem;
@@ -61,6 +63,9 @@
     font-size: 32px;
   }
 
+  .highlights-section .highlight-item {
+    margin-bottom: 2rem;
+  }
   .contact-section h3 {
     margin-top: 1.5rem;
   }
