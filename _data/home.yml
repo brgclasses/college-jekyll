@@ -85,6 +85,7 @@ quick-links:
 
 # about
 about:
+  header-text: About College
   bg-img: https://brgclasses.sirv.com/vidyalaya/img/college.jpg
   info: |-
     Foo College of Engineering is one of the top college for pursuing engineering degrees in Foo city.
@@ -180,7 +181,7 @@ admissions:
 # covid
 covid:
   wrapper-img: covid.jpg
-  title: College of Engineering responds to COVID 19
+  title: Foo College of Engineering responds to COVID 19
   para: |-
     Following College true mission to serve the community, the nation and the world,
     students, faculty, staff and management are addressing the COVID-19 pandemic on
@@ -237,7 +238,7 @@ news-events:
   highlight:
     bg-img: https://brgclasses.sirv.com/vidyalaya/img/celebration.jpg
     header-text: 50<sup>th</sup> ANNIVERSARY [1970 - 2021]
-    title: College of Engineering
+    title: Foo College of Engineering
     btn:
       caption: View Celebration Moments
       url: /#
@@ -292,12 +293,12 @@ contact:
         Foo College of Engineering,<br>
         ABC Road, Bar,<br>
         Foo - 423401<br>
-        Maharashtra, India
+        PQR, XYZ
     - title: Call
       icon: call.png
       content: |-
-        020 123456 <br>
-        020 987654
+        001 123456 <br>
+        001 987654
     - title: Mail
       icon: mail.png
       content: |-
